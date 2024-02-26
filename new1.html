@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loginfrom</title>
+    <link rel="stylesheet" href="new1.css">
+</head>
+<body>
+
+<form>
+
+    <div class="box">
+                   
+        <h1>Register</h1>
+
+                        <!ช่องใส่ชื่อจริง/นามสกุล/เบอร์มือถือ/ที่อยู่/ไลน์ไอดี/อีเมล/รูปภาพ/เพศ>
+        <div>
+            <label for="Fristname">
+                <input class="textboxstyle1"type="textbox"placeholder="Fristname"id="Fristname"name="Fristname">ชื่อจริง
+            </label>
+        
+            <label for="Lastname">
+                <input class="textboxstyle1"type="textbox"placeholder="Lastname"id="Lastname"name="Lastname">นามสกุล
+            </label>
+        </div>
+        <br>
+        <div>
+            <label for="Mobilenumber">
+                <input class="textboxstyle1"type="textbox"placeholder="Mobilenumber"id="Mobilenumber"name="Mobilenumber">เบอร์มือถือ
+            </label>
+
+            <label for="address">
+                <input class="textboxstyle1"type="textbox"placeholder="address"id="address"name="address">ที่อยู่
+            </label>
+        </div>
+        <br>
+        <div>
+            <label for="LINEID">
+                <input class="textboxstyle1"type="textbox"placeholder="LINEID"id="LINEID"name="LINEID">ไลน์ไอดี
+            </label>
+
+            <label for="email">
+                <input class="textboxstyle1"type="email"placeholder="email"id="email"name="email">อีเมล
+            </label>
+        </div>
+        <br>
+        <div>
+            <label for="image">รูปภาพ
+                <input type="file"id="image"name="image">
+            </label>
+        
+            <input type="radio"id="Male"name="Male">ชาย
+        
+            <input type="radio"id="Female"name="Female">หญิง
+        </div>
+  
+        <h1>PackagePrice</h1>                            
+                         <!ปุ่มเลือกแพ็คเก็ทราคาและช่องโชว์ราคา>
+        <input class="textboxstyle2" type="textbox"id="Showprice"name="Showprice"><!ช่องโชว์ราคา>    
+<br>
+        <div>
+            <button class="button1"type="button"id="clickprice1month"name="clickprice1month">1month</button>
+            <button class="button1"type="button"id="clickprice3month"name="clickprice3month">3month</button>
+            <button class="button1"type="button"id="clickprice12month"name="clickprice12month">12month</button>
+        </div>
+<br>
+        <button class="button2"type="button"id="submit"name="submit">submit</button>
+
+    </div>
+</form>
+
+</body>
+</html>
